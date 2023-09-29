@@ -1,0 +1,838 @@
+
+1.
+Question 1
+Which of the following represents the derivative of a function 
+�
+(
+�
+)
+f(x) (check all that apply)?
+
+1 / 1 point
+
+�
+(
+�
+)
+F(x)
+
+
+�
+′
+(
+�
+)
+f 
+′
+ (x) 
+
+Correct
+Correct! 
+
+
+�
+′
+(
+�
+2
+)
+f 
+′
+ (x 
+2
+ )
+
+
+�
+�
+(
+�
+)
+�
+�
+dx
+df(x)
+​
+ 
+
+Correct
+Correct! This is known as the Leibniz notation.
+
+
+�
+(
+�
+)
+�
+�
+(
+�
+)
+df(x)
+f(x)
+​
+ 
+
+2.
+Question 2
+Consider the graph of the following function 
+�
+(
+�
+)
+f(x).
+
+
+Regarding its derivative, 
+�
+′
+(
+�
+)
+f 
+′
+ (x),  where   
+�
+∈
+[
+0
+,
+5
+]
+x∈[0,5]: (check all that apply)
+
+
+1 / 1 point
+
+�
+′
+(
+�
+)
+f 
+′
+ (x) is always positive.
+
+
+
+�
+′
+(
+�
+)
+f 
+′
+ (x) has three zeros, i.e., 
+�
+′
+(
+�
+)
+=
+0
+f 
+′
+ (x)=0 three times.
+
+
+Correct
+Correct! 
+�
+f has two local minima and one local maximum in the interval.
+
+
+
+�
+′
+(
+�
+)
+f 
+′
+ (x) has two zeros, i.e., 
+�
+′
+(
+�
+)
+=
+0
+f 
+′
+ (x)=0 twice.
+
+
+
+�
+′
+(
+1
+)
+<
+0
+f 
+′
+ (1)<0.
+
+
+Correct
+Correct! 
+�
+f is decreasing when 
+�
+=
+1
+x=1, therefore its derivative must be negative at this point.
+
+
+
+�
+′
+(
+4
+)
+>
+0
+f 
+′
+ (4)>0.
+
+
+Correct
+Correct. 
+�
+f is increasing when 
+�
+=
+4
+x=4, therefore its derivative must be positive at this point.
+
+
+3.
+Question 3
+What is the derivative of 
+3
+�
+3
+–
+2
+�
++
+1
+3x 
+3
+ –2x+1?
+
+1 / 1 point
+
+3
+�
+2
+–
+2
+3x 
+2
+ –2
+
+
+9
+�
+2
+–
+2
++
+1
+9x 
+2
+ –2+1
+
+
+9
+�
+2
+–
+2
+9x 
+2
+ –2
+
+
+9
+�
+3
+–
+1
+9x 
+3
+ –1
+
+Correct
+Correct! 
+
+4.
+Question 4
+Suppose you have a game where you toss a coin 
+20
+20 times and win if you get, in this exact order, 16 heads and 4 tails. However, in this game, you can choose any coin and toss it 20 times. 
+
+Which of the following functions you need to maximize in order to find the best coin for this game? Consider 
+�
+p being the probability of a given coin being heads.
+
+1 / 1 point
+
+16
+log
+⁡
+(
+�
+)
++
+4
+log
+⁡
+(
+�
+)
+16log(p)+4log(p)
+
+
+16
+log
+⁡
+(
+�
+)
++
+4
+log
+⁡
+(
+1
+−
+�
+)
+16log(p)+4log(1−p)
+
+
+4
+log
+⁡
+(
+�
+)
++
+16
+log
+⁡
+(
+1
+−
+�
+)
+4log(p)+16log(1−p)
+
+
+4
+log
+⁡
+(
+1
+–
+�
+)
++
+16
+log
+⁡
+(
+1
+–
+�
+)
+4log(1–p)+16log(1–p)
+
+Correct
+Correct! The probability of having 16 heads is 
+�
+16
+p 
+16
+  and the probability of having 4 tails is 
+(
+1
+−
+�
+)
+4
+(1−p) 
+4
+ , therefore the total desired probability is 
+�
+(
+�
+)
+=
+�
+16
+(
+1
+−
+�
+)
+4
+l(p)=p 
+16
+ (1−p) 
+4
+ . As you saw in the lecture 
+Cost Functions in machine Learning - Part II
+, the same value that maximizes 
+�
+l, also maximizes 
+log
+⁡
+�
+logl and 
+log
+⁡
+�
+=
+16
+log
+⁡
+(
+�
+)
++
+4
+log
+⁡
+(
+1
+−
+�
+)
+logl=16log(p)+4log(1−p).
+
+5.
+Question 5
+Let 
+�
+(
+�
+)
+f(x) be a real valued function with the following graph. In the interval 
+[
+0
+,
+7
+]
+[0,7], how many zeros has its derivative 
+�
+′
+(
+�
+)
+f 
+′
+ (x)?
+
+
+
+1 / 1 point
+5
+Correct
+Correct! Since 
+�
+f has 
+3
+3 local minima and 
+2
+2 local maxima in the desired interval, it must have 
+5
+5 zeros. You can review the lecture 
+Introduction to Optimization
+ to get more details. 
+
+
+6.
+Question 6
+If 
+�
+(
+�
+)
+f(x) and 
+�
+(
+�
+)
+g(x) are differentiable functions, then the derivative of 
+�
+(
+�
+)
+�
+(
+�
+)
+f(x)g(x) is given by:
+
+1 / 1 point
+
+�
+′
+(
+�
+)
+⋅
+�
+(
+�
+)
++
+�
+′
+(
+�
+)
+⋅
+�
+(
+�
+)
+f 
+′
+ (x)⋅g(x)+g 
+′
+ (x)⋅f(x)
+
+
+�
+′
+(
+�
+)
+⋅
+�
+′
+(
+�
+)
++
+�
+(
+�
+)
+⋅
+�
+(
+�
+)
+f 
+′
+ (x)⋅g 
+′
+ (x)+f(x)⋅g(x)
+
+
+�
+′
+(
+�
+)
+⋅
+�
+(
+�
+)
+–
+�
+(
+�
+)
+⋅
+�
+′
+(
+�
+)
+f 
+′
+ (x)⋅g(x)–f(x)⋅g 
+′
+ (x)
+
+
+�
+′
+(
+�
+)
+⋅
+�
+′
+(
+�
+)
+f 
+′
+ (x)⋅g 
+′
+ (x) 
+
+Correct
+Correct! 
+
+7.
+Question 7
+The rate of change of 
+�
+(
+�
+)
+=
+�
+2
++
+3
+f(x)=x 
+2
+ +3 at 
+�
+=
+6
+x=6 is:
+
+
+1 / 1 point
+12
+Correct
+Correct! 
+�
+′
+(
+�
+)
+=
+2
+�
+f 
+′
+ (x)=2x, therefore 
+�
+′
+(
+6
+)
+=
+2
+⋅
+6
+=
+12
+f 
+′
+ (6)=2⋅6=12.
+
+
+8.
+Question 8
+Let 
+�
+(
+�
+)
+f(x) be a positive real function and 
+�
+(
+�
+)
+=
+log
+⁡
+�
+(
+�
+)
+g(x)=logf(x). 
+
+Check all that apply.
+
+1 / 1 point
+
+�
+�
+(
+�
+)
+�
+�
+=
+�
+�
+(
+�
+)
+�
+�
+dx
+df(x)
+​
+ = 
+dx
+dg(x)
+​
+ 
+
+
+
+If 
+�
+�
+�
+�
+x 
+max
+​
+  is a point where 
+�
+(
+�
+�
+�
+�
+)
+f(x 
+max
+​
+ ) is a local maximum, then 
+�
+(
+�
+�
+�
+�
+)
+g(x 
+max
+​
+ ) is also a local maximum. 
+
+
+Correct
+Correct! When applying the function 
+�
+�
+�
+log to 
+�
+f, even though we change its shape, the maximum points will remain the same, since 
+log
+⁡
+log is a crescent function!
+
+
+
+If 
+�
+�
+�
+�
+x 
+max
+​
+  is a point where 
+�
+(
+�
+�
+�
+�
+)
+f(x 
+max
+​
+ ) is a local maximum, then 
+�
+(
+�
+�
+�
+�
+)
+g(x 
+max
+​
+ ) is also a local minimum.
+
+
+
+If 
+�
+(
+�
+)
+f(x) is differentiable, then so is 
+�
+(
+�
+)
+g(x). 
+
+
+Correct
+Correct! The result of composing two differentiable functions is differentiable, by the chain rule.
+
+9.
+Question 9
+Using the chain rule,the derivative of 
+�
+−
+�
+e 
+−x
+  is:
+
+
+1 / 1 point
+
+�
+−
+�
+e 
+−x
+ 
+
+
+
+−
+�
+�
+−e 
+x
+ 
+
+
+
+−
+�
+−
+�
+−e 
+−x
+ 
+
+
+
+�
+�
+e 
+x
+ 
+
+
+Correct
+Correct!
+
